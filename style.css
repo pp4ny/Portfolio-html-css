@@ -1,0 +1,85 @@
+body {
+    background-image:  url(img/bg.jpg);
+    padding: 0 300px 0 300px;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+}
+.header {
+    margin: 0;
+    min-width: 980px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 0 5px 20px;
+    text-transform: uppercase;
+    box-shadow: 0 15px 25px rgb(0,0,0,0.2);
+}
+.container {
+    color: rgb(99, 136, 216);
+    width: 100%;
+    margin: 20px 0 20px 0;
+    background-color:  #fefced;
+    min-width: 1000px;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.2);
+}
+.container .right {
+    background-color:  #ffffff;
+}
+.nav {
+    padding-left: 0;
+    margin: 15px 0 20px 0;
+    text-align: center;
+    color: rgb(99, 136, 216);
+}
+.nav li {
+    display: inline;
+}
+h1 {
+    padding: 20px 20px 20px 20px;
+    color: rgb(99, 136, 216);
+    margin: 15px 0 15px 0;
+}
+h2 {
+    padding: 20px 20px 20px 20px;
+    margin: 15px 0 15px 0;
+}
+img {
+    padding: 20px 20px 20px 20px;
+    height: 210px;
+    display:  block;
+    background-position:  top   left;
+}
+h3 {
+    padding: 20px 20px 20px 20px;
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 3px;
+}
+.skill img {
+    height: 300px;
+    display:  block;
+    background-position:  center;
+}
+p {
+    padding: 0 20px;
+    margin: 15px 0 15px 0;
+}
+li {
+    padding: 0 20px;
+    margin: 15px 0 15px 0;
+}
+.work {
+    list-style-type: none;
+    padding: 0;
+}
+.work {
+    border: 1px solid #b56663;
+    padding-left: 15;
+    margin-bottom: 20px;
+}
+.recipes a {
+    color: #7facaa;
+    text-decoration: none;
+}
